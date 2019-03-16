@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>registration form</title>
+<link rel="stylesheet" href="stylesheetrv.css">
+<script>
+function checkname()
+{
+if (f1.name.value.length==0)
+{
+alert("name should not be empty");
+f1.name.focus();
+return false;
+}
+}
+function checkpassword()
+{
+if(f1.password.value.length==0)
+{
+alert("password should not be empty");
+f1.password.focus();
+return false;
+}
+}
+function sub()
+{
+if(f1.name.value.length==0|| f1.password.value.length==0||f1.emailid.value length==0||f1.contact no.value length==0)
+{
+alert("please fill the empty fields");
+}
+else
+{
+alert("thanks for entering the details");
+}
+}
+</script>
+</head>
+<body>
+<div id="header">
+<img src="vote 1.jpg" height="160px" width="300px"/>
+<h1>online voting system</h1></div>
+<div id="nav">
+</div>
+<div id="content">
+<table border="1px" cellpadding="2px" cellspacing="2px"style="margin-left:400px; margin-top:20px;">
+<th colspan="2">Registration From</th>
+<form name="f1">
+<tr><td><b>name:</b></td><td><input type="text" name="name" onclick="checkname();"></td></tr>
+<tr><td><b>password:</b></td><td><input type="password" name="password" onclick="checkpassword();"></td></tr>
+<tr><td><b>emailid:</b></td><td><input type="text" name="emailid"></td></tr>
+<tr><td><b>contact no:</b></td><td><input type="text" name="contact no"></td></tr>
+<tr><td colspan="2"><input type="submit" value="submit" onclick="sub()"></td></tr>
+</form>
+</table><br>
+<a href="voters.html" style="margin-left:480px;"><B><I>LOGIN NOW!!!</I></B></a>
+</div>
+<div id="footer">project done by student benita</div>
+</body>
+</html>

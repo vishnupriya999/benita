@@ -1,0 +1,47 @@
+#header
+{
+  height:49%;
+  width:100%;
+  border:1px solid rgb(31,44,76);
+  background-color:rgb(31,44,76);
+  color:white;
+  font-size:25;
+  text-align:center;
+  border-radius:5px;
+}
+h1
+{
+	margin-top:10px;
+}
+#nav
+{
+	height:10%;
+	width:100%;
+    border:1px solid rgb(94,92,103);
+	background-color:rgb(94,92,103);
+	color:white;
+	border-radius:5px;
+}
+#content
+{
+    height:33%;
+    width:100%;
+    border-radius:5px;
+}
+#footer
+{
+	height:6%;
+	width:100%;
+	border:1px solid black;
+	text-align:center;
+	background-color:rgb(31,44,76);
+	border-radius:5px;
+	color:white;
+}
+ a img
+{
+	margin-top:12px;
+    padding-left:220px;
+}	
+
+	  
